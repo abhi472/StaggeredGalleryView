@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<android.support.constraint.ConstraintLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#dddddd">
+
+    <ImageView
+        android:id="@+id/galleryImage"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="3dp"
+        android:paddingBottom="3dp"
+        android:maxHeight="800px"
+        android:paddingEnd="3dp"
+        android:scaleType="fitXY"
+        android:paddingStart="3dp"/>
+
+</android.support.constraint.ConstraintLayout>
+</layout>
